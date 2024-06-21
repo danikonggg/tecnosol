@@ -10,11 +10,10 @@ app.set('port', process.env.PORT || 9000);
 const dbOptions = {
     host: 'localhost',
     port: 3306,
-    user: 'root',
-    password: '',
-    database: 'tecnosol'
+    user: 'proyect1_yopiiii',
+    password: 'hj@Nv;u]yq.T',
+    database: 'tecnosolprueba'
 };
-
 // Middleware para habilitar CORS
 app.use(cors());
 
