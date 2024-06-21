@@ -1,0 +1,38 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+GET http://localhost:9000/api/obtener_datos_residencial HTTP/1.1
+
+###
+POST http://localhost:9000/api/insertar_usuario HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "tony ",
+    "apellido_paterno": "Gutierrez ",
+    "apellido_materno": "Flores ",
+    "usuario": "TonyViejolobo",
+    "contraseña": "123"
+}
+
+###
+DELETE http://localhost:9000/api/Perra HTTP/1.1
+Content-Type: application/json
+
+{
+    "idusuario":2
+}
+
+###
+POST http://192.168.1.194:9000/api/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "usuario": "Dani123",
+    "contraseña": "123"
+}
+
+###
+GET http://192.168.1.36:9000/api/modelos HTTP/1.1
+
